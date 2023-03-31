@@ -1,0 +1,26 @@
+#palya{
+    border:5px solid green;
+    width: 80%;
+    margin: 2 rem auto;
+    height: 500px;
+    position: relative;
+}
+#worm{
+    position: absolute;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background: url('./wormhead.png') center center no-repeat;
+    background-size: contain;
+}
+body{
+    height: 100%;
+}
+.dinnye{
+    position: absolute;
+    left: 1000px;
+    width: 50px;
+    height: 50px;
+    background: url('./dinnye.png') center center no-repeat;
+    background-size: contain;
+}
